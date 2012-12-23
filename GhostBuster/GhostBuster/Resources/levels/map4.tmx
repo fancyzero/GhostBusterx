@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="31" tileheight="31">
+ <tileset firstgid="1" source="perspective_walls.tsx"/>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlFkKgDAMRONel+r9b6ugwVBtKzYuH/Ng6BaYJIQSAQAA+BPVotGj+gX/yXNvA29Mta0pebJHKe54b2jvRbsoc9SIuOxmHrEaJbkQnwvnrOkvZ6OnY/21iJP90PKP9cZs6x3fqx5PE5q/N3JL6b8GA63zRXT8f7qTeKvs/3X98o9xlTLXAADwF2aD+wLO
+  </data>
+ </layer>
+</map>

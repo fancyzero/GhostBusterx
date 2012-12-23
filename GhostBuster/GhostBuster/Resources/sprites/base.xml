@@ -1,0 +1,33 @@
+<sprites>
+	<sprite name="Cross">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Cross" />
+		</sprite_components>
+	</sprite>
+	
+	<sprite name="Ghost">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Ghost" />
+		</sprite_components>
+	</sprite>
+	<sprite name="Player1">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Player1" />
+		</sprite_components>
+	</sprite>
+   	<sprite name="Player2">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Player2" />
+		</sprite_components>
+	</sprite>
+    <sprite name="Player3">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Player3" />
+		</sprite_components>
+	</sprite>
+    <sprite name="Player4">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:Player4" />
+		</sprite_components>
+	</sprite>
+</sprites>

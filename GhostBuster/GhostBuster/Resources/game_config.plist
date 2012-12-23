@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ghost_count</key>
+	<integer>4</integer>
+	<key>ghost_collision_radius</key>
+	<integer>20</integer>
+	<key>game_duration</key>
+	<integer>120</integer>
+	<key>cross_spawn_interval</key>
+	<integer>25</integer>
+	<key>cross_first_spawn_time</key>
+	<integer>25</integer>
+	<key>player_move_speed</key>
+	<integer>100</integer>
+	<key>ghost_move_speed</key>
+	<integer>90</integer>
+</dict>
+</plist>

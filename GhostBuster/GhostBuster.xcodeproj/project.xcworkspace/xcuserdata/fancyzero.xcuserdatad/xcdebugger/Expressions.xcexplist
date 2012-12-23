@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SGhost moveToward:]:SGhost.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "fromTileCoord">
+            </PersistentString>
+            <PersistentString
+               value = "toTileCoord">
+            </PersistentString>
+            <PersistentString
+               value = "shortestPath">
+            </PersistentString>
+            <PersistentString
+               value = "self.m_position">
+            </PersistentString>
+            <PersistentString
+               value = "ShortestPath">
+            </PersistentString>
+            <PersistentString
+               value = "self.shortestPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__CGPointEqualToPoint [inlined]:CGGeometry.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "point1">
+            </PersistentString>
+            <PersistentString
+               value = "point2">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[World find_objs_by_name:]:World.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "objs">
+            </PersistentString>
+            <PersistentString
+               value = "obj.m_name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SPlayer update:]:SPlayer.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_position">
+            </PersistentString>
+            <PersistentString
+               value = "ghost.m_position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhysicsSprite init_physics:]:PhysicsSprite.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[SPlayer init_with_id:]:SPlayer.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.retaincount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SGhost update:]:SGhost.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "shortestPath">
+            </PersistentString>
+            <PersistentString
+               value = "movelen">
+            </PersistentString>
+            <PersistentString
+               value = "m_position">
+            </PersistentString>
+            <PersistentString
+               value = " self.m_position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhysicsSprite m_position]:PhysicsSprite.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_position_">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SPlayer can_moveto:]:SPlayer.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GBLevel tileCoordForPosition:]:GBLevel.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

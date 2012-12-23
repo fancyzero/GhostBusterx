@@ -1,0 +1,54 @@
+<sprite_components>
+
+	<sprite_component name="Cross">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pickup"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="cross.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	
+	<sprite_component name="Ghost">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:ghostbody"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic5.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="Player1">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pic1"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic1.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="Player2">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pic1"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic2.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="Player3">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pic1"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic3.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="Player4">
+		<physics_def>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pic1"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic4.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+</sprite_components>
+
+

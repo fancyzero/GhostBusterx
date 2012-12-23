@@ -1,0 +1,16 @@
+<bodies>
+
+<body name="pic1" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
+	<circle radius="15" is_sensor="false" />
+	<circle radius="20" is_sensor="true" />
+</body>
+	<body name="ghostbody" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
+		<circle radius="15" is_sensor="false" />
+		<circle radius="20" is_sensor="true" />
+	</body>
+	
+	<body name="pickup" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
+		<circle radius="30" is_sensor="true" />
+	</body>
+</bodies>
+        
