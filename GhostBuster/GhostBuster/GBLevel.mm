@@ -48,7 +48,7 @@
 				fixtureDef.isSensor = false;
 				fixtureDef.userData = collider_spr;
 				fixtureDef.density = 1;
-				fixtureDef.restitution = 0;
+				fixtureDef.restitution = 0.5;
 				fixtureDef.friction = 0;
 				body->CreateFixture(&fixtureDef);
 				

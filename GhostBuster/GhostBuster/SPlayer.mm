@@ -75,6 +75,7 @@
 	[m_alive_counter_label setPosition:labelpos];
 	[[GameBase get_game].m_scene.m_UIlayer addChild:m_alive_counter_label z:10];
 
+    [self set_physic_linear_damping:0 :2];
   	return self;
 }
 
@@ -141,7 +142,9 @@
 	GBLevel* level = (GBLevel*)[GameBase get_game].m_level;
 	//if ( [level isValidTileCoord:[level tileCoordForPosition:pt]] && [self can_moveto:pt] )
 	//{
-		[ self set_physic_linear_velocity:0 :movedir.x*m_speed/[GameBase get_ptm_ratio] :movedir.y*m_speed/[GameBase get_ptm_ratio]];
+    CGPoint force = ccp(movedir.x*m_speed/[GameBase get_ptm_ratio],movedir.y*m_speed/[GameBase get_ptm_ratio]);
+    [self apply_force_center:0 :force.x force_y:force.y];
+	//	[ self set_physic_linear_velocity:0 :movedir.x*m_speed/[GameBase get_ptm_ratio] :movedir.y*m_speed/[GameBase get_ptm_ratio]];
 	//}
    /* else
     {

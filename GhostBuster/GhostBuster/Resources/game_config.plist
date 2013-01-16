@@ -13,7 +13,7 @@
 	<key>cross_first_spawn_time</key>
 	<integer>25</integer>
 	<key>player_move_speed</key>
-	<integer>100</integer>
+	<integer>1000</integer>
 	<key>ghost_move_speed</key>
 	<integer>90</integer>
 </dict>

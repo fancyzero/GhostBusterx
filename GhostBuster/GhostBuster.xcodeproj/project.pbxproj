@@ -211,7 +211,6 @@
 		04F2E580167CC4B4009D4DEF /* SGhost.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04F2E57F167CC4B4009D4DEF /* SGhost.mm */; };
 		04F2E583167CC5A3009D4DEF /* ShortestPathStep.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04F2E582167CC5A3009D4DEF /* ShortestPathStep.mm */; };
 		04F2E585167CCCD9009D4DEF /* levels in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E584167CCCD9009D4DEF /* levels */; };
-		04F2E58D167CCDEB009D4DEF /* particles in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E586167CCDEB009D4DEF /* particles */; };
 		04F2E58E167CCDEB009D4DEF /* pdb in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E587167CCDEB009D4DEF /* pdb */; };
 		04F2E58F167CCDEB009D4DEF /* pic in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E588167CCDEB009D4DEF /* pic */; };
 		04F2E590167CCDEB009D4DEF /* sfx in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E589167CCDEB009D4DEF /* sfx */; };
@@ -640,7 +639,6 @@
 		04F2E581167CC5A3009D4DEF /* ShortestPathStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortestPathStep.h; sourceTree = "<group>"; };
 		04F2E582167CC5A3009D4DEF /* ShortestPathStep.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShortestPathStep.mm; sourceTree = "<group>"; };
 		04F2E584167CCCD9009D4DEF /* levels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = levels; path = Resources/levels; sourceTree = "<group>"; };
-		04F2E586167CCDEB009D4DEF /* particles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = particles; path = Resources/particles; sourceTree = "<group>"; };
 		04F2E587167CCDEB009D4DEF /* pdb */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pdb; path = Resources/pdb; sourceTree = "<group>"; };
 		04F2E588167CCDEB009D4DEF /* pic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pic; path = Resources/pic; sourceTree = "<group>"; };
 		04F2E589167CCDEB009D4DEF /* sfx */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sfx; path = Resources/sfx; sourceTree = "<group>"; };
@@ -721,7 +719,6 @@
 		04F2E305167C7837009D4DEF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04F2E586167CCDEB009D4DEF /* particles */,
 				04F2E587167CCDEB009D4DEF /* pdb */,
 				04F2E588167CCDEB009D4DEF /* pic */,
 				04F2E589167CCDEB009D4DEF /* sfx */,
@@ -1390,7 +1387,6 @@
 				04F2E45C167C7839009D4DEF /* ChangeLog in Resources */,
 				04F2E51F167C783A009D4DEF /* blocks.png in Resources */,
 				04F2E585167CCCD9009D4DEF /* levels in Resources */,
-				04F2E58D167CCDEB009D4DEF /* particles in Resources */,
 				04F2E58E167CCDEB009D4DEF /* pdb in Resources */,
 				04F2E58F167CCDEB009D4DEF /* pic in Resources */,
 				04F2E590167CCDEB009D4DEF /* sfx in Resources */,
@@ -1649,7 +1645,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF878A63-FCE5-45A5-A906-B3CF58E2988B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A3364645-ED72-41E2-A67C-78EE0643CE8D";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"GhostBuster/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1659,6 +1656,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ZHOU LIN (3T8872A55A)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GhostBuster/Prefix.pch;
@@ -1669,6 +1667,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A3364645-ED72-41E2-A67C-78EE0643CE8D";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"GhostBuster/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
