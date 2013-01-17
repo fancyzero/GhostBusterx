@@ -11,7 +11,7 @@
 	
 	<sprite_component name="Ghost">
 		<physics_def>
-			<body type="dynamic" url="pdb/GhostBuster.xml:ghostbody"/>
+			<body type="dynamic" url="pdb/GhostBuster.xml:pic1"/>
 		</physics_def>
 		<animation_def>
 			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic5.png" framespeed="0"/>
@@ -47,6 +47,22 @@
 		</physics_def>
 		<animation_def>
 			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="pic4.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="rotat_cross">
+		<physics_def>
+			<body type="kinematic" url="pdb/GhostBuster.xml:rotat_cross"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="rotat_cross.png" framespeed="0"/>
+		</animation_def>
+	</sprite_component>
+	<sprite_component name="coin">
+		<physics_def>
+			<body type="static" url="pdb/GhostBuster.xml:coin"/>
+		</physics_def>
+		<animation_def>
+			<sequence name="default" animated="false" texture="pic/Pics1.plist"  framenames="coin.png" framespeed="0"/>
 		</animation_def>
 	</sprite_component>
 </sprite_components>

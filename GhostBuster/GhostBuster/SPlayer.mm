@@ -42,15 +42,16 @@
     if ( id == 3 )
         [self init_with_xml:@"sprites/base.xml:Player4" ];
     
-		[self set_scale:0.5 :0.5];
+		[self set_scale:0.75 :0.75];
 	//[ self set_collision_filter:collision_filter_player()  cat:cg_player1];
 	[[GameBase get_game].m_world add_gameobj:self];
 	[ self set_zorder:3];
 	GBLevel* level = (GBLevel*)[GameBase get_game].m_level;
     [self set_role:role_player];
 	
-	[self set_collision_filter:1+2+4+8+16+32 cat:1];
-		[self set_physic_fixed_rotation:0 :true];
+	[self set_collision_filter:1+2+4+8+16+32+64 cat:1];
+	[self set_physic_fixed_rotation:0 :true];
+	[self set_physic_mass:0 :1];
 	
 	
 	m_alive_counter_label = [CCLabelTTF labelWithString:@"health:" fontName:@"Courier" fontSize:30];

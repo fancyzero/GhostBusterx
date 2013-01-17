@@ -164,11 +164,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "135"
-         endingLineNumber = "135"
+         startingLineNumber = "136"
+         endingLineNumber = "136"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -177,11 +177,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "213"
-         endingLineNumber = "213"
+         startingLineNumber = "214"
+         endingLineNumber = "214"
          landmarkName = "-ccTouchBegan:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -203,11 +203,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "151"
-         endingLineNumber = "151"
+         startingLineNumber = "152"
+         endingLineNumber = "152"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -253,11 +253,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "123"
-         endingLineNumber = "123"
+         startingLineNumber = "124"
+         endingLineNumber = "124"
          landmarkName = "-can_moveto:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -266,11 +266,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "107"
-         endingLineNumber = "107"
+         startingLineNumber = "108"
+         endingLineNumber = "108"
          landmarkName = "-can_moveto:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -279,11 +279,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "110"
-         endingLineNumber = "110"
+         startingLineNumber = "111"
+         endingLineNumber = "111"
          landmarkName = "-can_moveto:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -292,33 +292,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "142"
-         endingLineNumber = "142"
-         landmarkName = "-update:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "147"
-         endingLineNumber = "147"
-         landmarkName = "-update:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "143"
@@ -331,11 +305,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "156"
-         endingLineNumber = "156"
+         startingLineNumber = "148"
+         endingLineNumber = "148"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -344,11 +318,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "158"
-         endingLineNumber = "158"
+         startingLineNumber = "144"
+         endingLineNumber = "144"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -357,11 +331,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "171"
-         endingLineNumber = "171"
+         startingLineNumber = "157"
+         endingLineNumber = "157"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SPlayer.mm"
+         timestampString = "380121425.764416"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "159"
+         endingLineNumber = "159"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SPlayer.mm"
+         timestampString = "380121425.764416"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "172"
+         endingLineNumber = "172"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -370,11 +370,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380124477.070811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "31"
-         endingLineNumber = "31"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
          landmarkName = "-setup_level_collider:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -383,11 +383,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380125378.816817"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "317"
-         endingLineNumber = "317"
+         startingLineNumber = "339"
+         endingLineNumber = "339"
          landmarkName = "-dealloc"
          landmarkType = "5">
       </FileBreakpoint>
@@ -396,11 +396,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380124477.070811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
          landmarkName = "-reset"
          landmarkType = "5">
       </FileBreakpoint>
@@ -409,11 +409,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "118"
-         endingLineNumber = "118"
+         startingLineNumber = "120"
+         endingLineNumber = "120"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -422,11 +422,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "100"
-         endingLineNumber = "100"
+         startingLineNumber = "102"
+         endingLineNumber = "102"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -435,11 +435,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "114"
-         endingLineNumber = "114"
+         startingLineNumber = "116"
+         endingLineNumber = "116"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -448,11 +448,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "129"
-         endingLineNumber = "129"
+         startingLineNumber = "131"
+         endingLineNumber = "131"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -513,11 +513,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380125378.816817"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "229"
-         endingLineNumber = "229"
+         startingLineNumber = "251"
+         endingLineNumber = "251"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -526,11 +526,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380125378.816817"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "223"
-         endingLineNumber = "223"
+         startingLineNumber = "245"
+         endingLineNumber = "245"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -552,11 +552,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "85"
-         endingLineNumber = "85"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -565,33 +565,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
-         landmarkName = "-update:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "74"
-         endingLineNumber = "74"
-         landmarkName = "-update:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "75"
@@ -604,11 +578,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "82"
-         endingLineNumber = "82"
+         startingLineNumber = "76"
+         endingLineNumber = "76"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -617,11 +591,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "86"
-         endingLineNumber = "86"
+         startingLineNumber = "77"
+         endingLineNumber = "77"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -630,11 +604,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SGhost.mm"
-         timestampString = "377944577.434032"
+         timestampString = "380125844.650606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "96"
-         endingLineNumber = "96"
+         startingLineNumber = "84"
+         endingLineNumber = "84"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SGhost.mm"
+         timestampString = "380125844.650606"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "88"
+         endingLineNumber = "88"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SGhost.mm"
+         timestampString = "380125844.650606"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -643,11 +643,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380125378.816817"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "185"
-         endingLineNumber = "185"
+         startingLineNumber = "207"
+         endingLineNumber = "207"
          landmarkName = "-update:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -656,11 +656,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380124477.070811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "101"
-         endingLineNumber = "101"
+         startingLineNumber = "102"
+         endingLineNumber = "102"
          landmarkName = "-reset"
          landmarkType = "5">
       </FileBreakpoint>
@@ -669,11 +669,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380124477.070811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "98"
-         endingLineNumber = "98"
+         startingLineNumber = "99"
+         endingLineNumber = "99"
          landmarkName = "-reset"
          landmarkType = "5">
       </FileBreakpoint>
@@ -695,11 +695,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "223"
-         endingLineNumber = "223"
+         startingLineNumber = "224"
+         endingLineNumber = "224"
          landmarkName = "-ccTouchMoved:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -708,11 +708,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/SPlayer.mm"
-         timestampString = "379404777.854846"
+         timestampString = "380121425.764416"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "222"
-         endingLineNumber = "222"
+         startingLineNumber = "223"
+         endingLineNumber = "223"
          landmarkName = "-ccTouchMoved:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -734,11 +734,154 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GhostBuster/GBLevel.mm"
-         timestampString = "377945796.469583"
+         timestampString = "380124477.070811"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "83"
-         endingLineNumber = "83"
+         startingLineNumber = "84"
+         endingLineNumber = "84"
+         landmarkName = "-reset"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SRotatCross.mm"
+         timestampString = "380120370.195769"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "16"
+         endingLineNumber = "16"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/GBGame.mm"
+         timestampString = "380119208.106867"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
+         landmarkName = "-init_game"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/GBLevel.mm"
+         timestampString = "380125378.816817"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "193"
+         endingLineNumber = "193"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/GBLevel.mm"
+         timestampString = "380125378.816817"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "256"
+         endingLineNumber = "256"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FESimple/Level.mm"
+         timestampString = "380119378.837647"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "132"
+         endingLineNumber = "132"
+         landmarkName = "-load_from_file:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FESimple/Level.mm"
+         timestampString = "380119583.37315"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
+         landmarkName = "-on_node_begin:nodename:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FESimple/Level.mm"
+         timestampString = "380119624.940933"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "65"
+         endingLineNumber = "65"
+         landmarkName = "-on_node_begin:nodename:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FESimple/Level.mm"
+         timestampString = "380119634.336844"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
+         landmarkName = "-on_node_begin:nodename:attributes:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SRotatCross.mm"
+         timestampString = "380120558.836027"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "14"
+         endingLineNumber = "14"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/SRotatCross.mm"
+         timestampString = "380120560.018624"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "15"
+         endingLineNumber = "15"
+         landmarkName = "-update:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "GhostBuster/GBLevel.mm"
+         timestampString = "380124628.999767"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "167"
+         endingLineNumber = "167"
          landmarkName = "-reset"
          landmarkType = "5">
       </FileBreakpoint>

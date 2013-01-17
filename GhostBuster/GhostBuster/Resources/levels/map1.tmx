@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="51" height="38" tilewidth="20" tileheight="20">
- <tileset firstgid="1" name="bg" tilewidth="1024" tileheight="729">
-  <image source="bg.png" width="1024" height="729"/>
- </tileset>
- <tileset firstgid="2" name="tile" tilewidth="20" tileheight="20">
-  <image source="tile.png" width="20" height="40"/>
+<map version="1.0" orientation="orthogonal" width="34" height="25" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="tile" tilewidth="30" tileheight="30">
+  <image source="tile.png" width="30" height="60"/>
   <tile id="0">
    <properties>
     <property name="wall" value="true"/>
    </properties>
   </tile>
  </tileset>
- <layer name="layer1" width="51" height="38" opacity="0.07">
+ <tileset firstgid="3" name="bg" tilewidth="1020" tileheight="750">
+  <image source="bg.png" width="1020" height="750"/>
+ </tileset>
+ <layer name="layer1" width="34" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlcESxCAIQ532//+5105HYoiiuOshl64FXgzdq5RyHW2tW1B0/VoPtc4IltE93s/RHLVzUSzsu2hGxINYarNlYkF9GJbojP4zC5sRNkOevV/FonidIWMzhebfjeXLxbBGeNl6tppF3e1WvxHzeL1DvyNO1j9rD7weeVha32Svj4xXUfeCWHp6Z2JR+2RiUfI0m6Xmf2+fGSzoLMOi1vzOpHrA5oR5d8R3zCtrHnWHkLeKfxlYmNo7sVg5iuBQWZS9nKEdWVqZZVjUuoyHLfWwqB6tuBfLo19k6blvq4dn1hUsqBb7/1Lzh62Jzo66/0gWtv/M3KsZ83iZgeXoKLMe/LYTeA==
+   eJztVMsOwCAMsv7/R++4xLSUPtQdduCwRAkCQ8YY8hHMAjo41zuicE+Fd73D6EDnLB0aB/queFfVkckgoyOTuXe26scuWDpuoeK3983khLgYHRZ/5J/t1IEyP+FHNPeKDrSnu3Ww/no9sHqR9YN5p9fdiG9RHZ3Zsf04sXWR/4XpnrYT1gZm3trtB7NjSP9tHZ73Vl6Im91nr1PsLmR62o2ojh8vHtV1BVc=
   </data>
  </layer>
- <layer name="块层 2" width="51" height="38">
+ <layer name="块层 2" width="34" height="25">
   <data encoding="base64" compression="zlib">
-   eJztzjEBAAAMAiDXv/QK+PtAAhIAAAAAAACAjVsHqB4f4AAC
+   eJztzjENAAAIA7Al+PeMg71wtAqaAAAAdHMdeGYBEHgABA==
   </data>
  </layer>
 </map>

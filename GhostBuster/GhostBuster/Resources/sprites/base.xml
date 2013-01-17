@@ -30,4 +30,14 @@
 			<sprite_component desc="sprite_components/base.xml:Player4" />
 		</sprite_components>
 	</sprite>
+    <sprite name="rotat_cross">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:rotat_cross" />
+		</sprite_components>
+	</sprite>
+    <sprite name="coin">
+		<sprite_components>
+			<sprite_component desc="sprite_components/base.xml:coin" />
+		</sprite_components>
+	</sprite>
 </sprites>

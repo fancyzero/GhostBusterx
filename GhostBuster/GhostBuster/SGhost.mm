@@ -39,11 +39,13 @@
     }
 	[self clear_closed_steps];
     m_next_change_target_time = 0;
-    [self set_scale:0.5 :0.5];
+    [self set_scale:0.75 :0.75];
     [ self set_role:role_ghost];
 	[[GameBase get_game].m_world add_gameobj:self];
 	[ self set_collision_filter:1+2+4+8+32 cat:1];
 	[self set_physic_fixed_rotation:0 :true];
+	[self set_physic_mass:0 :1];
+	[self set_zorder:1];
     return self;
 }
 

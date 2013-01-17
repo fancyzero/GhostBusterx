@@ -1,16 +1,16 @@
 <bodies>
 
 <body name="pic1" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
-	<circle radius="15" is_sensor="false" />
-	<circle radius="20" is_sensor="true" />
+<circle radius="14.000" is_sensor="false" />
+<circle radius="33.015" is_sensor="true" />
 </body>
-	<body name="ghostbody" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
-		<circle radius="15" is_sensor="false" />
-		<circle radius="20" is_sensor="true" />
-	</body>
-	
-	<body name="pickup" id="0" anchor_rel="0.500,0.500" anchor_abs="32.000,32.000" size="64.000,64.000">
-		<circle radius="30" is_sensor="true" />
-	</body>
+<body name="rotat_cross" id="0" anchor_rel="0.509,0.487" anchor_abs="113.000,108.500" size="222.000,223.000">
+<polygon vertices=" 12.000,-106.500 ,4.000,113.500 ,-9.000,113.500 ,-4.000,-104.500" is_sensor="false" />
+<polygon vertices=" -104.000,-11.500 ,102.000,-8.500 ,105.000,9.500 ,-106.000,8.500" is_sensor="false" />
+<circle radius="29.069" is_sensor="false" />
+</body>
+<body name="coin" id="0" anchor_rel="0.455,0.526" anchor_abs="10.000,20.000" size="22.000,38.000">
+<polygon vertices=" 0.000,-20.000 ,11.000,-12.000 ,11.000,10.000 ,0.000,18.000 ,-9.000,11.000 ,-10.000,-11.000" is_sensor="true" />
+</body>
 </bodies>
         

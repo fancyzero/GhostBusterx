@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0429C19816A825FB00D864EA /* SRotatCross.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0429C19716A825FB00D864EA /* SRotatCross.mm */; };
+		0429C1A416A83BD000D864EA /* SCoin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0429C1A316A83BD000D864EA /* SCoin.mm */; };
 		045EF9591685C9B40058B1E3 /* SPickup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 045EF9581685C9B40058B1E3 /* SPickup.mm */; };
 		04946C111685A41600FB3387 /* LevelCollider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04946C101685A41600FB3387 /* LevelCollider.mm */; };
 		04E122FB1686F36A007E473F /* game_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E122FA1686F36A007E473F /* game_config.plist */; };
@@ -220,6 +222,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0429C19616A825FB00D864EA /* SRotatCross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRotatCross.h; sourceTree = "<group>"; };
+		0429C19716A825FB00D864EA /* SRotatCross.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SRotatCross.mm; sourceTree = "<group>"; };
+		0429C1A216A83BD000D864EA /* SCoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCoin.h; sourceTree = "<group>"; };
+		0429C1A316A83BD000D864EA /* SCoin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCoin.mm; sourceTree = "<group>"; };
 		045EF9571685C9B40058B1E3 /* SPickup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPickup.h; sourceTree = "<group>"; };
 		045EF9581685C9B40058B1E3 /* SPickup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SPickup.mm; sourceTree = "<group>"; };
 		04946C0F1685A41600FB3387 /* LevelCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCollider.h; sourceTree = "<group>"; };
@@ -1318,6 +1324,10 @@
 				04946C101685A41600FB3387 /* LevelCollider.mm */,
 				045EF9571685C9B40058B1E3 /* SPickup.h */,
 				045EF9581685C9B40058B1E3 /* SPickup.mm */,
+				0429C19616A825FB00D864EA /* SRotatCross.h */,
+				0429C19716A825FB00D864EA /* SRotatCross.mm */,
+				0429C1A216A83BD000D864EA /* SCoin.h */,
+				0429C1A316A83BD000D864EA /* SCoin.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1583,6 +1593,8 @@
 				04E826E2168043DF00CE889A /* GBSpriteBase.mm in Sources */,
 				04946C111685A41600FB3387 /* LevelCollider.mm in Sources */,
 				045EF9591685C9B40058B1E3 /* SPickup.mm in Sources */,
+				0429C19816A825FB00D864EA /* SRotatCross.mm in Sources */,
+				0429C1A416A83BD000D864EA /* SCoin.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

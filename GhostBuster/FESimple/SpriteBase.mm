@@ -508,6 +508,17 @@
 {
 	if ( m_sprite_components.size() > component )
 		[m_sprite_components[component] set_physic_angular_velocity: v];
+}
+-(void) set_physic_mass:(int) component :(float) v
+{
+	if ( m_sprite_components.size() > component )
+	{
+		b2MassData md;
+		m_sprite_components[component].m_phy_body->GetMassData(&md);
+		md.mass = v;
+		
+		m_sprite_components[component].m_phy_body->SetMassData(&md);
+	}
 	
 }
 -(void) set_physic_angular_damping:(int) component :(float) d

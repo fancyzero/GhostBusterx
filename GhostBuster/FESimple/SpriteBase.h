@@ -110,7 +110,7 @@ typedef std::vector<drop_desc>		DROPDESCS;
 -(int) sprite_components_count;
 -(PhysicsSprite*) get_sprite_component: (int) index;
 -(void) add_drop_desc:(drop_desc) desc;
-
+-(void) set_physic_mass:(int) component :(float) v;
 -(void) set_physic_position:(int) component :(CGPoint) pos;
 -(void) set_physic_angular_velocity:(int) component :(float) v;
 -(void) set_physic_angular_damping:(int) component :(float) d;

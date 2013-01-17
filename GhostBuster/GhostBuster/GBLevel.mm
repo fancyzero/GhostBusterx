@@ -19,6 +19,7 @@
 #import "SPickup.h"
 #import "GBGame.h"
 #import "SPlayer.h"
+#import "SCoin.h"
 @implementation GBLevel
 @synthesize m_grid_size;
 
@@ -86,22 +87,22 @@
 	[game.m_scene.m_layer addChild:m_tiled_map];
 	SPlayer* p;
     p = [[SPlayer alloc] init_with_id:0];
-	CGPoint pt = [self positionForTileCoord:ccp(22,16)];
+	CGPoint pt = [self positionForTileCoord:ccp(15,10)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:0];
 	
     p = [[SPlayer alloc] init_with_id:1];
-    pt = [self positionForTileCoord:ccp(22,20)];
+    pt = [self positionForTileCoord:ccp(15,13)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:1];
     
     p = [[SPlayer alloc] init_with_id:2];
-    pt = [self positionForTileCoord:ccp(28,16)];
+    pt = [self positionForTileCoord:ccp(18,10)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:2];
     
     p = [[SPlayer alloc] init_with_id:3];
-    pt = [self positionForTileCoord:ccp(28,20)];
+    pt = [self positionForTileCoord:ccp(18,13)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:3];
     
@@ -113,13 +114,13 @@
         while(1)
         {
 			if ( rand()%2)
-				x = rand() % 20;
+				x = rand() % 15;
 			else
-				x = rand()%20 + 30;
+				x = rand()%5 + 30;
 			if ( rand()%2)
-				y = rand() % 10;
+				y = rand() % 5;
 			else
-				y = rand()%10 + 24;
+				y = rand()%5 + 18;
             if ( ![self isWallAtTileCoord:ccp(x,y)])
                 break;
         }
@@ -155,6 +156,27 @@
 		pds.zOrder = 200;
 		[[GameBase get_game].m_scene.m_layer addChild:pds ];
 	}
+	return;
+	for( int y = 0; y < m_tiled_map.mapSize.height; y++ )
+	{
+		for( int x = 0; x < m_tiled_map.mapSize.width; x++ )
+		{
+			if ( ![self isWallAtTileCoord:ccp(x,y)])
+			{
+				SCoin* coin = [SCoin new];
+				pt = [self positionForTileCoord:ccp(x,y)];
+				//[ coin set_physic_position:0 :pt];
+				[ coin set_position:pt.x y:pt.y];
+				 [ coin init_with_xml:@"sprites/base.xml:coin" ];
+				[coin set_zorder:0];
+				[ coin set_scale:0.5 :0.5];
+										[coin set_collision_filter:1 cat:64];
+				[[GameBase get_game].m_world add_gameobj:coin];
+
+			}
+		}
+	}
+//	[GameBase get_game].m_scene.position = ccp(0,-18);
 }
 
 -(bool) pending_restart
@@ -237,7 +259,7 @@
 		{
 			if ( m_level_triggers[i].action_type == ta_addobj )
 			{
-				if ( m_level_triggers[i].progress_pos < self.m_level_progress )
+				if ( m_level_triggers[i].progress_pos <= self.m_level_progress )
 				{
 					Class c = NSClassFromString(m_level_triggers[i].script);
 					assert( [c isSubclassOfClass:[GameObjBase class]]);
@@ -254,7 +276,7 @@
 			}
 			if ( m_level_triggers[i].action_type == ta_rand_addobj )
 			{
-				if ( m_level_triggers[i].progress_pos < self.m_level_progress )
+				if ( m_level_triggers[i].progress_pos <= self.m_level_progress )
 				{
 					Class c = NSClassFromString(m_level_triggers[i].script);
 					assert( [c isSubclassOfClass:[GameObjBase class]]);
@@ -348,14 +370,14 @@
 {
 	CGPoint pt;
 	pt.x = floorf(position.x / m_grid_size);
-	pt.y = floorf((768 - position.y) / m_grid_size );
+	pt.y = floorf((750 - position.y) / m_grid_size );
 	return pt;
 }
 - (CGPoint)positionForTileCoord:(CGPoint)tileCoord
 {
 	CGPoint pt;
 	pt.x = tileCoord.x * m_grid_size + m_grid_size/2;
-	pt.y = (768 - tileCoord.y * m_grid_size ) - m_grid_size/2;
+	pt.y = (750 - tileCoord.y * m_grid_size ) - m_grid_size/2;
 	return pt;
 }
 
