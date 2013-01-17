@@ -86,22 +86,22 @@
 	[game.m_scene.m_layer addChild:m_tiled_map];
 	SPlayer* p;
     p = [[SPlayer alloc] init_with_id:0];
-	CGPoint pt = [self positionForTileCoord:ccp(7,4)];
+	CGPoint pt = [self positionForTileCoord:ccp(22,16)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:0];
 	
     p = [[SPlayer alloc] init_with_id:1];
-    pt = [self positionForTileCoord:ccp(7,5)];
+    pt = [self positionForTileCoord:ccp(22,20)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:1];
     
     p = [[SPlayer alloc] init_with_id:2];
-    pt = [self positionForTileCoord:ccp(8,4)];
+    pt = [self positionForTileCoord:ccp(28,16)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:2];
     
     p = [[SPlayer alloc] init_with_id:3];
-    pt = [self positionForTileCoord:ccp(8,5)];
+    pt = [self positionForTileCoord:ccp(28,20)];
     [ p set_position:pt.x y:pt.y];
     [p set_id:3];
     
@@ -113,13 +113,13 @@
         while(1)
         {
 			if ( rand()%2)
-				x = rand() % 5;
+				x = rand() % 20;
 			else
-				x = rand()%5 + 10;
+				x = rand()%20 + 30;
 			if ( rand()%2)
-				y = rand() % 3;
+				y = rand() % 10;
 			else
-				y = rand()%3 + 7;
+				y = rand()%10 + 24;
             if ( ![self isWallAtTileCoord:ccp(x,y)])
                 break;
         }

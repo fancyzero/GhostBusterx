@@ -42,7 +42,7 @@
     if ( id == 3 )
         [self init_with_xml:@"sprites/base.xml:Player4" ];
     
-		[self set_scale:1 :1];
+		[self set_scale:0.5 :0.5];
 	//[ self set_collision_filter:collision_filter_player()  cat:cg_player1];
 	[[GameBase get_game].m_world add_gameobj:self];
 	[ self set_zorder:3];

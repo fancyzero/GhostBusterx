@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="16" height="12" tilewidth="64" tileheight="64">
- <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="64" tileheight="64" spacing="2" margin="2">
-  <image source="tmw_desert_spacing.png" width="530" height="398"/>
-  <tile id="33">
+<map version="1.0" orientation="orthogonal" width="51" height="38" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="bg" tilewidth="1024" tileheight="729">
+  <image source="bg.png" width="1024" height="729"/>
+ </tileset>
+ <tileset firstgid="2" name="tile" tilewidth="20" tileheight="20">
+  <image source="tile.png" width="20" height="40"/>
+  <tile id="0">
    <properties>
-    <property name="wall" value="1"/>
+    <property name="wall" value="true"/>
    </properties>
   </tile>
  </tileset>
- <layer name="layer1" width="16" height="12">
+ <layer name="layer1" width="51" height="38" opacity="0.07">
   <data encoding="base64" compression="zlib">
-   eJxTYGBgUAJiORIxSI8elFZCElNCU4Msjk+tHBF8fG7BZR8ud2FzJyG3oNuDy5/kuJcWdhCrB1v8EKOWGD8Siktsfsbmdlxq5IkMD2z2agAxAL51F6o=
+   eJztlcESxCAIQ532//+5105HYoiiuOshl64FXgzdq5RyHW2tW1B0/VoPtc4IltE93s/RHLVzUSzsu2hGxINYarNlYkF9GJbojP4zC5sRNkOevV/FonidIWMzhebfjeXLxbBGeNl6tppF3e1WvxHzeL1DvyNO1j9rD7weeVha32Svj4xXUfeCWHp6Z2JR+2RiUfI0m6Xmf2+fGSzoLMOi1vzOpHrA5oR5d8R3zCtrHnWHkLeKfxlYmNo7sVg5iuBQWZS9nKEdWVqZZVjUuoyHLfWwqB6tuBfLo19k6blvq4dn1hUsqBb7/1Lzh62Jzo66/0gWtv/M3KsZ83iZgeXoKLMe/LYTeA==
+  </data>
+ </layer>
+ <layer name="块层 2" width="51" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiDXv/QK+PtAAhIAAAAAAACAjVsHqB4f4AAC
   </data>
  </layer>
 </map>
