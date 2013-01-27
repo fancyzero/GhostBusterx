@@ -20,6 +20,7 @@
 -(id) init_with_id:(int) id;
 {
 	self  = [super init];
+	m_score = 0;
 	m_dir_controller_length = 20;
 	m_alive_counter = 0;
     movedir = ccp(0,0);
@@ -145,6 +146,13 @@
 	//{
     CGPoint force = ccp(movedir.x*m_speed/[GameBase get_ptm_ratio],movedir.y*m_speed/[GameBase get_ptm_ratio]);
     [self apply_force_center:0 :force.x force_y:force.y];
+
+	CGPoint player_tiled_coord = [level tileCoordForPosition: self.m_position];
+
+	if ( [level is_coin:player_tiled_coord] )
+	{
+		[level remove_coin:player_tiled_coord];
+	}
 	//	[ self set_physic_linear_velocity:0 :movedir.x*m_speed/[GameBase get_ptm_ratio] :movedir.y*m_speed/[GameBase get_ptm_ratio]];
 	//}
    /* else

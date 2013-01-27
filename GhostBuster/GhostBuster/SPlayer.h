@@ -19,6 +19,7 @@
 	float	m_alive_counter;
 	CCLabelTTF*		m_alive_counter_label;
 	float  m_dir_controller_length;
+	float  m_score;
 
 }
 -(id) init_with_id:(int) id;

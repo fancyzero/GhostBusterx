@@ -49,4 +49,7 @@ struct Grid
 -(void) reset;
 -(CGSize) get_mapsize;
 -(b2Body*) setup_level_collider:(PhysicsSprite*) collider_spr;
+-(bool) is_coin:(CGPoint) pos;
+-(void) spawn_coin:(CGPoint) pos;
+-(void) remove_coin:(CGPoint) pos;
 @end

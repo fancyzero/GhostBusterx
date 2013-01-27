@@ -11,14 +11,27 @@
  <tileset firstgid="3" name="bg" tilewidth="1020" tileheight="750">
   <image source="bg.png" width="1020" height="750"/>
  </tileset>
+ <tileset firstgid="4" name="coin" tilewidth="30" tileheight="30">
+  <image source="coin.png" width="30" height="30"/>
+  <tile id="0">
+   <properties>
+    <property name="coin" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="layer1" width="34" height="25">
   <data encoding="base64" compression="zlib">
-   eJztVMsOwCAMsv7/R++4xLSUPtQdduCwRAkCQ8YY8hHMAjo41zuicE+Fd73D6EDnLB0aB/queFfVkckgoyOTuXe26scuWDpuoeK3983khLgYHRZ/5J/t1IEyP+FHNPeKDrSnu3Ww/no9sHqR9YN5p9fdiG9RHZ3Zsf04sXWR/4XpnrYT1gZm3trtB7NjSP9tHZ73Vl6Im91nr1PsLmR62o2ojh8vHtV1BVc=
+   eJztlcEKwCAMQ9X//+idxkDaJLZ17rBBDoKGZ1q73lrrH9FIqMJzPtMN72H4zmcUDrTP47A80DqTXZYjUoMIR6TmbG82j13yOE4pkzdbK3VCXgqH54/e7Mq5VQ5U8zfyWK17hgPN090car5sdlvnEAvLQ7kn60FP95fhqKqdyhHtz2gfsQzUt2j9P7wZGLlrdR7KHEP8pzlY9l69kLc6n1lPqXMh0qfVWuX49egCvm0FUg==
   </data>
  </layer>
- <layer name="块层 2" width="34" height="25">
+ <layer name="bglayer" width="34" height="25">
   <data encoding="base64" compression="zlib">
    eJztzjENAAAIA7Al+PeMg71wtAqaAAAAdHMdeGYBEHgABA==
+  </data>
+ </layer>
+ <layer name="coins" width="34" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztziEBAAAIA7AL+mfGvgGILcESAACA/+Y6UBYPeAAF
   </data>
  </layer>
 </map>

@@ -6,7 +6,7 @@
         </acting_range>
 		<actions>
 			
-		<action progress="0" act="add_obj" class="SpriteBase" init_scale="0.7" init_position="515,395" sprite_desc="sprites/base.xml:rotat_cross" />
+		<action progress="0" act="add_obj" class="SRotatCross" init_scale="0.7" init_position="515,395" sprite_desc="sprites/base.xml:rotat_cross" />
 	 
 
 		</actions>

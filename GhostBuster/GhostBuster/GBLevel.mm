@@ -156,23 +156,14 @@
 		pds.zOrder = 200;
 		[[GameBase get_game].m_scene.m_layer addChild:pds ];
 	}
-	return;
+	//return;
 	for( int y = 0; y < m_tiled_map.mapSize.height; y++ )
 	{
 		for( int x = 0; x < m_tiled_map.mapSize.width; x++ )
 		{
 			if ( ![self isWallAtTileCoord:ccp(x,y)])
 			{
-				SCoin* coin = [SCoin new];
-				pt = [self positionForTileCoord:ccp(x,y)];
-				//[ coin set_physic_position:0 :pt];
-				[ coin set_position:pt.x y:pt.y];
-				 [ coin init_with_xml:@"sprites/base.xml:coin" ];
-				[coin set_zorder:0];
-				[ coin set_scale:0.5 :0.5];
-										[coin set_collision_filter:1 cat:64];
-				[[GameBase get_game].m_world add_gameobj:coin];
-
+				[self spawn_coin:ccp(x,y)];
 			}
 		}
 	}
@@ -396,6 +387,17 @@
     return [properties objectForKey:prop] != nil;
 }
 
+-(int)getIntProp:(NSString*)prop atTileCoord:(CGPoint)tileCoord forLayer:(CCTMXLayer *)layer {
+    if (![self isValidTileCoord:tileCoord]) return NO;
+    int gid = [layer tileGIDAt:tileCoord];
+    NSDictionary * properties = [m_tiled_map propertiesForGID:gid];
+    if (properties == nil) return NO;
+    if ([properties objectForKey:prop] != nil )
+		return [[properties valueForKey :prop] intValue];
+	else
+		return 0;
+}
+
 -(bool) isWallAtPositionCoord:(CGPoint) pt :(float) radius
 {
     for ( int i = -1; i<2; i++ )
@@ -417,6 +419,21 @@
         }
     }
     return false;
+}
+-(bool) is_coin:(CGPoint) pos 
+{
+	int coinvalue = [self getIntProp:@"coin" atTileCoord:pos forLayer:[m_tiled_map layerNamed:@"coins"] ];
+	return coinvalue > 0;
+}
+-(void) spawn_coin:(CGPoint) pos
+{
+	CCTMXLayer* layer = [m_tiled_map layerNamed:@"coins"];
+	[layer setTileGID:4 at:pos];
+}
+-(void) remove_coin:(CGPoint) pos
+{
+	CCTMXLayer* layer = [m_tiled_map layerNamed:@"coins"];
+	[layer setTileGID:0 at:pos];
 }
 
 -(bool) isWallAtTileCoord:(CGPoint) pt
