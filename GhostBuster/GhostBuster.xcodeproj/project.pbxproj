@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0429C19816A825FB00D864EA /* SRotatCross.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0429C19716A825FB00D864EA /* SRotatCross.mm */; };
 		0429C1A416A83BD000D864EA /* SCoin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0429C1A316A83BD000D864EA /* SCoin.mm */; };
+		0458469716B6191C006062F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0458469616B6191C006062F9 /* Default-568h@2x.png */; };
 		045EF9591685C9B40058B1E3 /* SPickup.mm in Sources */ = {isa = PBXBuildFile; fileRef = 045EF9581685C9B40058B1E3 /* SPickup.mm */; };
 		04946C111685A41600FB3387 /* LevelCollider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04946C101685A41600FB3387 /* LevelCollider.mm */; };
 		04E122FB1686F36A007E473F /* game_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E122FA1686F36A007E473F /* game_config.plist */; };
@@ -226,6 +227,7 @@
 		0429C19716A825FB00D864EA /* SRotatCross.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SRotatCross.mm; sourceTree = "<group>"; };
 		0429C1A216A83BD000D864EA /* SCoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCoin.h; sourceTree = "<group>"; };
 		0429C1A316A83BD000D864EA /* SCoin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCoin.mm; sourceTree = "<group>"; };
+		0458469616B6191C006062F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		045EF9571685C9B40058B1E3 /* SPickup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPickup.h; sourceTree = "<group>"; };
 		045EF9581685C9B40058B1E3 /* SPickup.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SPickup.mm; sourceTree = "<group>"; };
 		04946C0F1685A41600FB3387 /* LevelCollider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCollider.h; sourceTree = "<group>"; };
@@ -676,6 +678,7 @@
 		04F2E2E3167C7837009D4DEF = {
 			isa = PBXGroup;
 			children = (
+				0458469616B6191C006062F9 /* Default-568h@2x.png */,
 				04F2E525167C7CDC009D4DEF /* FESimple */,
 				04F2E304167C7837009D4DEF /* GhostBuster */,
 				04F2E2F1167C7837009D4DEF /* Frameworks */,
@@ -1404,6 +1407,7 @@
 				04F2E592167CCDEB009D4DEF /* sprite_components in Resources */,
 				04F2E593167CCDEB009D4DEF /* sprites in Resources */,
 				04E122FB1686F36A007E473F /* game_config.plist in Resources */,
+				0458469716B6191C006062F9 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1645,6 +1649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ZHOU LIN (3T8872A55A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ZHOU LIN (3T8872A55A)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1657,7 +1662,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF878A63-FCE5-45A5-A906-B3CF58E2988B";
+				PROVISIONING_PROFILE = "50FAF1A6-B7E3-4610-AA2A-CA9C589EDC5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "50FAF1A6-B7E3-4610-AA2A-CA9C589EDC5E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"GhostBuster/libs\"";
 				WRAPPER_EXTENSION = app;
@@ -1668,6 +1674,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ZHOU LIN (3T8872A55A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ZHOU LIN (3T8872A55A)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1679,7 +1686,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF878A63-FCE5-45A5-A906-B3CF58E2988B";
+				PROVISIONING_PROFILE = "50FAF1A6-B7E3-4610-AA2A-CA9C589EDC5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "50FAF1A6-B7E3-4610-AA2A-CA9C589EDC5E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"GhostBuster/libs\"";
 				VALIDATE_PRODUCT = YES;

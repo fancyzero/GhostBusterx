@@ -16,10 +16,11 @@
     float   m_inter_collision_radius;
     float   m_wall_collision_radius;
     int m_id;
-	float	m_alive_counter;
+	int	m_alive_counter;
+    int m_back_to_player_coins_left;
 	CCLabelTTF*		m_alive_counter_label;
 	float  m_dir_controller_length;
-	float  m_score;
+	//float  m_score;
 
 }
 -(id) init_with_id:(int) id;

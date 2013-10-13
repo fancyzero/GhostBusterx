@@ -20,7 +20,7 @@
 -(id) init_with_id:(int) id;
 {
 	self  = [super init];
-	m_score = 0;
+//	m_score = 0;
 	m_dir_controller_length = 20;
 	m_alive_counter = 0;
     movedir = ccp(0,0);
@@ -90,6 +90,7 @@
 		{
 			[self set_color_override:ccc4f(1, 0, 1, 1) mask:0.5 duration:0xffffffff];
 			m_role = role_ghost;
+            m_back_to_player_coins_left = 0;
 		}
 	}
 	if ( [other isKindOfClass:[SPickup class]] )
@@ -133,10 +134,10 @@
 -(void) update:(float)delta_time
 {
 	[super update:delta_time	];
-	if ( m_role == role_player )
-		m_alive_counter += delta_time;
+	//if ( m_role == role_player )
+	//	m_alive_counter += delta_time;
 	NSString* temp;
-	temp = [NSString stringWithFormat:@"%.2f", m_alive_counter ];
+	temp = [NSString stringWithFormat:@"%d", m_alive_counter ];
 	[m_alive_counter_label setString:temp];
     float movelen = delta_time*m_speed;
 	CGPoint pt = ccpMult(movedir, movelen);
@@ -151,6 +152,17 @@
 
 	if ( [level is_coin:player_tiled_coord] )
 	{
+        if ( m_role == role_player )
+            m_alive_counter +=1;
+        else
+        {
+            m_back_to_player_coins_left ++;
+            if ( m_back_to_player_coins_left >= 20 )
+            {
+                [self set_color_override:ccc4f(1, 0, 1, 1) mask:0 duration:0xffffffff];
+                m_role = role_player;
+            }
+        }
 		[level remove_coin:player_tiled_coord];
 	}
 	//	[ self set_physic_linear_velocity:0 :movedir.x*m_speed/[GameBase get_ptm_ratio] :movedir.y*m_speed/[GameBase get_ptm_ratio]];
